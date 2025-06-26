@@ -19,15 +19,10 @@ Or use an R environment manager like renv or Conda (environment.yml provided if 
 Clone the repository
 cd 
 Load your data
-Place your raw/filtered matrix (e.g., 10x filtered_feature_bc_matrix/) in the data/ folder.
 
 Run the pipeline step-by-step
 Execute each R script in order or combine them in an RMarkdown notebook.
 
-Example in R console:
-source("scripts/01_qc.R")
-source("scripts/02_normalization.R")
-...
 Outputs
 Plots (UMAP, feature plots, violin plots)
 Tables (marker genes, QC stats)
